@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>text-shadow와 box-shadow</title>
+    <style>
+        h2 {
+            text-align: center;
+            color: yellow;
+            text-shadow: 2px 2px 3px blue;
+        }
+
+        .container table {
+        margin: 0 auto; /* 블록 요소(테이블)를 가운데로 정렬하는 공식 */
+        }
+
+        img:hover {
+            box-shadow: 0px 0px 5px blue;
+        }
+    </style>
+</head>
+<body>
+<h2>Most Visited Pages</h2>
+<hr>
+<div class="container">
+    <table>
+        <tr>
+            <td><a href="http://naver.com">
+                <img src="이미지/네이버.png" width="150" height="100">
+            </a></td>
+            <td><a href="https://www.google.com">
+                <img src="이미지/구글.jpg" width="150" height="100">
+            </a></td>
+            <td><a href="https://www.daum.net/">
+                <img src="이미지/다음.png" width="150" height="100">
+            </a></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
