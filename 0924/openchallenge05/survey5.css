@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background: yellow;
+}
+
+section {
+    background: pink;
+    margin: 10px 10px;
+}
+
+footer {
+    background: violet;
+}

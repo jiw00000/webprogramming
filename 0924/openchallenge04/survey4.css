@@ -1,0 +1,14 @@
+@import url(4.css);
+
+form {
+    background: pink;
+    border-style: none;  /* 폼의 테두리 */
+    margin-left: 10px;  /* 왼쪽 바깥 테두리 여백*/
+    margin-right: 10px;
+}
+
+.formspan {
+    font-family: gothic;
+    font-weight: bold;
+    color: blue;
+}
