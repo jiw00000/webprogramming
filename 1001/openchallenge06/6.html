@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function star(num) {
+            n = parseInt(num);      /* 받은 값을 정수로 바꿔 n 변수에 저장 */
+            if (isNaN(n)) {         /* isNaN(n)은 n이 숫자가 아닌 값일 경우를 확인 */
+                document.write("입력 오류 입니다.")
+            }
+            for (i = 0; i < n; i++) {
+                for (j = 0; j <= i; j++) {
+                    document.write("*");
+                }
+                document.write("<br>")  /* HTML의 줄바꿈 태그 <br>을 출력하여 다음 별들이 다음 줄에 찍히도록 함 */
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <title>별 문자 출력하기</title>
+</head>
+<body>
+    <h3>별 문자 출력하기</h3>
+    <hr>
+    <script>
+        var num = prompt("정수를 입력하세요", "1");
+        star(num);
+    </script>
+</body>
+</html>
